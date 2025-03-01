@@ -28,3 +28,37 @@ body{
   width: 1120px;
   margin: 88px auto;
 }
+
+.headline{
+  color: var(--text-headline);
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+#title-page .headline {
+  margin-bottom: 8px;
+}
+
+h1{
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 36px;
+}
+
+#description img {
+  border-radius: 28px;
+  margin-bottom: 24px;
+}
+
+#description p {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+#div {
+  border-bottom: 1px solid var(--border-primary);
+  margin-bottom: 64px;
+}
