@@ -20,3 +20,11 @@
  --accent-pink:#E5245E;
  --accent-purple:#591B98;
 }
+body{
+  font-family: "Open Sans", serif;
+}
+
+#page {
+  width: 1120px;
+  margin: 88px auto;
+}
