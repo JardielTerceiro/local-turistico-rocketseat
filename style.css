@@ -30,6 +30,10 @@ body {
   margin: 88px auto;
 }
 
+img {
+  border-radius: 28px;
+}
+
 .headline {
   color: var(--text-headline);
   font-size: 16px;
@@ -41,14 +45,24 @@ body {
   margin-bottom: 8px;
 }
 
+h1, h2, h3 {
+  font-weight: 700;
+}
+
 h1 {
   font-size: 36px;
-  font-weight: 700;
   margin-bottom: 36px;
 }
 
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
 #description img {
-  border-radius: 28px;
   margin-bottom: 24px;
 }
 
@@ -63,11 +77,12 @@ h1 {
   margin-bottom: 64px;
 }
 
-#content-list {
-  margin: ;
-}
-
 #title-list .headline {
   width: 255px;
+  margin-bottom: 2px;
+}
+
+#title-list h2 {
+  width: 683px;
   margin-bottom: 2px;
 }
